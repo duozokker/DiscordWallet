@@ -1,0 +1,29 @@
+{
+  "name": "discordwallet",
+  "version": "0.0.1",
+  "description": "A discord bot which lets you create a bitcoin wallet to send and receive bitcoins.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duozokker/discordwallet.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "discord",
+    "bot",
+    "discordwallet",
+    "wallet"
+  ],
+  "author": "duozokker",
+  "license": "MIT",
+  "dependencies": {
+    "blocktrail-sdk": "^3.7.16",
+    "canvas": "^2.0.0-alpha.12",
+    "discord.js": "^11.4.2",
+    "sqlite": "^3.0.0"
+  }
+  "bugs": {
+    "url": "https://github.com/duozokker/discordwallet/issues"
+  },
+  "homepage": "https://github.com/duozokker/discordwallet#readme"
+}
