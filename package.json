@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A discord bot which lets you create a bitcoin wallet to send and receive bitcoins.",
   "main": "index.js",
+  "homepage": "https://github.com/duozokker/discordwallet#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/duozokker/discordwallet.git"
@@ -22,5 +23,4 @@
     "discord.js": "^11.4.2",
     "sqlite": "^3.0.0"
   }
-  "homepage": "https://github.com/duozokker/discordwallet#readme"
 }
