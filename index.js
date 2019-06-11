@@ -15,12 +15,10 @@ client.on("ready", () => {
 
 client.on("guildCreate", guild => {
 	client.user.setActivity(`dw!help on ${client.guilds.size} servers`);
-	client.channels.get('487560853168717834').send(`:arrow_up: New guild joined: ${guild.name} (id: ${guild.id}).\n This guild has ${guild.memberCount} members!`);
 });
 
 client.on("guildDelete", guild => {
   client.user.setGame(`dw!help on ${client.guilds.size} servers`);
-	client.channels.get('487560853168717834').send(`:arrow_down: I have been removed from: ${guild.name} (id: ${guild.id})`);
 });
 
 function makeid() {
