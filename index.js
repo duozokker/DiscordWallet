@@ -1,9 +1,10 @@
+const config = require("./config.json");
+
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const blocktrail = require('blocktrail-sdk');
 const bclient = blocktrail.BlocktrailSDK({apiKey: config.blocktrailApiKey, apiSecret: config.blocktrailApiSecret, network: "BTC", testnet: false});
 
-const config = require("./config.json");
 const sql = require("sqlite");
 sql.open("./dwallet.sqlite");
 
