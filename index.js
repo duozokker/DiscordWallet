@@ -40,7 +40,7 @@ client.on("message", message => {
   const prefix = config.prefix;
 
   if (message.content.startsWith(prefix + "support")) {
-    message.channel.send("https://discord.gg/Kvff5jA");
+    message.channel.send("https://discord.gg/mfZMKFE");
   }
 
   if (message.content.startsWith(prefix + "create")) {
